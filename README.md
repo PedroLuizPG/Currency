@@ -23,11 +23,11 @@ Esta é uma aplicação web desenvolvida em React.js e TypeScript que permite ao
 ## 🛠️ Instalação e Execução
 1. Clone este repositório:
 ```bash
-  git clone https://github.com/seu-usuario/crypto-tracker.git
+  git clone https://github.com/seu-usuario/currency.git
 ```
 2. Acesse a pasta do projeto:
 ```bash
-  cd crypto-tracker
+  cd currency
 ```
 3. Instale as dependências:
 ```bash
