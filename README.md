@@ -1,54 +1,58 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Currency
 
-Currently, two official plugins are available:
+Esta é uma aplicação web desenvolvida em React.js e TypeScript que permite aos usuários visualizar informações detalhadas sobre criptomoedas, incluindo preço, valor de mercado, volume de negociação e mudança percentual nas últimas 24 horas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
+- React.js
+- TypeScript
+- React Router
+- Axios
+- CSS Modules
+- CoinCap API
+- React Icons
+- React Loading Indicators
 
-## Expanding the ESLint configuration
+## 📌 Funcionalidades
+- 🔍 **Busca por criptomoedas:** O usuário pode pesquisar criptomoedas pelo nome ou símbolo.
+- 📊 **Tabela de Listagem:** Exibe uma lista das criptomoedas com seus respectivos valor mercado, preço, volume e mudança 24hrs.
+- 📄 **Detalhes de uma Moeda:** Ao clicar em uma criptomoeda, o usuário pode visualizar mais informações detalhadas sobre ela.
+- 🔄 **Atualização Automática:** Os dados são buscados diretamente da API CoinCap.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Instalação e Execução
+1. Clone este repositório:
+```bash
+  git clone https://github.com/seu-usuario/crypto-tracker.git
+```
+2. Acesse a pasta do projeto:
+```bash
+  cd crypto-tracker
+```
+3. Instale as dependências:
+```bash
+  npm install
+  # ou
+  yarn install
+```
+4. Inicie o servidor de desenvolvimento:
+```bash
+  npm run dev
+  # ou
+  yarn dev
+```
+5. Acesse o projeto no navegador:
+```
+  http://localhost:5173/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🔗 API Utilizada
+Este projeto consome a [CoinCap API](https://coincap.io/) para obter informações sobre criptomoedas.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📌 Contato
+Se tiver alguma dúvida ou sugestão, fique à vontade para entrar em contato!
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+📧 Email: peuluiz.13@gmail.com 
+🐙 GitHub: [github.com/PedroLuizPG](https://github.com/PedroLuizPG)
+
+
