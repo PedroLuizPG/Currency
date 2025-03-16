@@ -1,0 +1,20 @@
+
+.container{
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    max-width: 500px;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+
+
+.notfound{
+    text-align: center;
+    color: #f3f3f3;
+    
+}
